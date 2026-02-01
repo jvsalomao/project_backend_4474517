@@ -207,7 +207,9 @@ Todas as rotas protegidas exigem o cabeçalho Authorization: Bearer <seu_token>.
 ## 🧪 Como Testar (Postman)
 
 **1. Login:** Realize uma requisição POST em `/api/auth/login` com as credenciais de Admin.
+
 **2. Autenticação:** Copie o `access_token` da resposta. Nas próximas requisições, vá na aba Authorization, selecione Bearer Token e cole o código.
+
 **3. Fluxo sugerido:**
 
 - Criar Médico (POST /professionals).
